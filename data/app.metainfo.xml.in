@@ -102,12 +102,12 @@
     </release>
     <release version="1.1" date="2023-11-12">
       <description translatable="no">
-        Various bug fixes.
+        <p>Various bug fixes.</p>
       </description>
     </release>
     <release version="1.0" date="2023-11-10">
       <description translatable="no">
-        This is the first release of Biblioteca with GNOME 45 documentation. We hope you like it.
+        <p>This is the first release of Biblioteca with GNOME 45 documentation. We hope you like it.</p>
       </description>
     </release>
   </releases>
