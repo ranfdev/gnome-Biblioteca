@@ -35,6 +35,18 @@
   </screenshots>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.7" date="2025-10-14">
+      <description translatable="no">
+        <ul>
+          <li>Update to GNOME 49</li>
+          <li>Add jsonrpc-glib</li>
+          <li>Update libshumate to 1.5.1</li>
+          <li>Update libspelling to 0.4.9</li>
+          <li>Update vte to 0.82.1</li>
+          <li>Update gom to 0.5.4</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.6" date="2025-05-06">
       <description translatable="no">
         <ul>

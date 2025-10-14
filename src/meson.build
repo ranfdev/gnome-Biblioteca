@@ -10,10 +10,6 @@ bin_conf.set('sourcedir', meson.project_source_root())
 
 meson.add_install_script('../build-aux/build-index.js', pkgdatadir)
 
-blueprint_compiler = find_program(
-  '/app/bin/blueprint-compiler',
-)
-
 configure_file(
   input: 'bin.js',
   output: app_id,
@@ -40,7 +36,6 @@ custom_target('gjspack',
     '--prefix', '/app/drey/Biblioteca',
     '--project-root', meson.project_source_root(),
     '--resource-root', meson.project_source_root() / 'src',
-    '--blueprint-compiler', blueprint_compiler,
     '--no-executable',
     '@INPUT0@',
     '@OUTDIR@',
